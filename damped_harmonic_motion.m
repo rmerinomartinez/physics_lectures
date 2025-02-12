@@ -40,7 +40,7 @@ x_over = A.*exp(-gamma_over.*t).*cos(omegap_over*t+phi); % Overdamped displaceme
 
 %% Plot results
 
-fig=figure();
+fig=figure('color','white');
 plot(t,x_undamped,'g--','LineWidth',1.5)
 hold on
 plot(t,x_under,'k-','LineWidth',1.5)
